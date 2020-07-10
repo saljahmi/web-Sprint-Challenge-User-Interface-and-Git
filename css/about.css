@@ -99,60 +99,71 @@ header{
     padding: 20px 0;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.top-content{
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    border-bottom: black dashed 1px;
 }
 
 .middle-content-1 {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content-1 h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.middle-content-1 .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black; 
+}
+
+.middle-content-2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.middle-content-1 img{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.middle-content-2 img{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.middle-content-2 .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black; 
 }
+
+.bottom-content{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+button {
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+  
+  /* On mouse-over */
+  button:hover {background: #eee;}
 
 footer {
     width: 100%;
@@ -171,35 +182,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-#box1{
-    background: teal;
-}
-#box2{
-    background: gold;
-}
-#box3{
-    background: cadetblue;
-}
-#box4{
-    background: coral;
-}
-#box5{
-    background: crimson;
-}
-#box6{
-    background: forestgreen;
-}
-#box7{
-    background: darkorchid;
-}
-#box8{
-    background: hotpink;
-}
-#box9{
-    background: indigo;
-}
-#box10{
-    background: dodgerblue;
 }
