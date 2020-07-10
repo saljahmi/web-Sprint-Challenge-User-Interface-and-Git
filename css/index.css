@@ -113,12 +113,12 @@ header{
     padding-bottom: 20px;  
 }
 
-.middle-content-1 {
+.middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content-1 h2 {
+.middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }

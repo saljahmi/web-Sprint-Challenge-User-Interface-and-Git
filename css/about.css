@@ -153,16 +153,13 @@ header{
 
 button {
     border: solid black 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
-    padding: 8px 28px;
+    padding: 7.5px 25px;
     font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
     margin-top: 20px;
 }
   
-/* On mouse-over */
 button:hover {background: #eee;}
 
 footer {
