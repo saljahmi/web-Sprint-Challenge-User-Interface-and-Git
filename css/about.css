@@ -96,11 +96,11 @@ p {
 
 header{
     width: 100%;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .top-content{
-    margin-bottom: 20px;
+    margin: 20px;
     padding-bottom: 20px;
     border-bottom: black dashed 1px;
 }
@@ -147,8 +147,8 @@ header{
 
 .bottom-content{
     width: 100%;
-    margin-bottom: 20px;
-
+    margin: 20px;
+    padding-bottom: 20px;
 }
 
 button {
@@ -162,8 +162,8 @@ button {
     margin-top: 20px;
 }
   
-  /* On mouse-over */
-  button:hover {background: #eee;}
+/* On mouse-over */
+button:hover {background: #eee;}
 
 footer {
     width: 100%;
